@@ -9,7 +9,7 @@ First, I placed the data into train/test sets with an 80/20 ratio.
 
 Next, I created a default Logistic Regression model, and fit it to the training data as a baseline.
 I used the test data to score the model - the results are shown below.
-(it's also best viewed with GitHub's light theme)
+It's also best viewed with GitHub's light theme...
 ![Alt text](https://raw.githubusercontent.com/MK38993/Metis-Project-4---Classification/main/ROC%20LogReg.png "HEY      EVERY      !! IT'S ME!!! EV3RY  BUDDY  'S FAVORITE [[Number 1 Rated Salesman1997]] SPAMT   SPAMTON G. SPAMTON!!")
 
 | 	 Test Dataset     | Predicted Negative     | Predicted Positive |
