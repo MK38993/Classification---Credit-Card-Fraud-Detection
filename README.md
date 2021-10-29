@@ -40,6 +40,7 @@ I considered Logistic Regression, Random Forest, and Gradient Boosted Tree class
 - Pandas and NumPy for data manipulation.
 - Scikit-Learn and XGBoost for creating and training classification models.
 - Google Sheets for methodology visualization (well, the little visualization that there was)
+- imblearn for data resampling
 
 
 ## Communication
