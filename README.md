@@ -19,9 +19,10 @@ Each datapoints has 30 features, all continuous. 28 of these are composite featu
 The data are extremely unbalanced; only 492 transactions are fraudulent - 0.172%.
 
 ## Algorithms
-1. Undersampling/weighting data in order to compensate for unbalanced dataset.
-2. Designing a custom cost function to score models
-3. Fitting and fine-tuning Logistic Regression, Random Forest, and Gradient Boosted Tree models. I considered the K-Nearest-Neighbors algorithm, but quickly discarded it; long prediction times and poor accuracy made it greatly inferior to the other models in this particular situation.
+1. Splitting data into 60-20-20 Train-Validation-Test buckets
+2. Undersampling/weighting data in order to compensate for unbalanced dataset.
+3. Designing a custom cost function to score models
+4. Fitting and fine-tuning Logistic Regression, Random Forest, and Gradient Boosted Tree models. I considered the K-Nearest-Neighbors algorithm, but quickly discarded it; long prediction times and poor accuracy made it greatly inferior to the other models in this particular situation.
 
 ## Models
 I considered Logistic Regression, Random Forest, and Gradient Boosted Tree classifiers before settling on random forest, which had the strongest scoring metrics across the board, and minimized fraud costs most effectively.
