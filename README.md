@@ -27,6 +27,19 @@ The data are extremely unbalanced; only 492 transactions are fraudulent - 0.172%
 ## Models
 I considered Logistic Regression, Random Forest, and Gradient Boosted Tree classifiers before settling on random forest, which had the strongest scoring metrics across the board, and minimized fraud costs most effectively.
 
+Because of my custom cost function, I was unable to use GridCV, and tuned my models by hand.
+
+For Logistic Regression, I constructed three models.
+- #1 utilized undersampling
+- #2 modified class weighting
+- #3 modified the probability threshold
+
+I maximized each model's performance using validation data, then scored them on test data. Of the three, model #1 minimized costs most efficiently.
+
+For Random Forest, I tuned "n_estimators", "max_depth", and "max_samples," but was unable to significantly lower costs much further than SKLearn's default settings. Increasing these parameters greatly improved results very slightly, but also greatly increased processing time; I decided to continue using defaults. For future work, we can use banks' presumably more powerful computers to squeeze every last drop of performance out of the models.
+
+For XGBoost, I tuned multiple hyperparameters by hand, but without GridSearchCV I was unable to outperform Random Forest.
+
 ### Models
 |Metric|Logistic Regression|Random Forest|XGBoost|
 |-|-|-|-|
