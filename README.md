@@ -40,6 +40,8 @@ For Random Forest, I tuned "n_estimators", "max_depth", and "max_samples," but w
 
 For XGBoost, I tuned multiple hyperparameters by hand, but without GridSearchCV I was unable to outperform Random Forest.
 
+Edit 2:00pm: I just was told that it's possible to make a custom scorer. It's a bit late to use it now, but I'm really looking forward to using it in the future.
+
 ### Models
 |Metric|Logistic Regression|Random Forest|XGBoost|
 |-|-|-|-|
