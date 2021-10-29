@@ -42,4 +42,4 @@ I considered Logistic Regression, Random Forest, and Gradient Boosted Tree class
 
 
 ## Communication
-My slide presentation can be found [here](https://www.kaggle.com/mlg-ulb/creditcardfraud"......")
+My slide presentation can be found [here](https://docs.google.com/presentation/d/1VhAYXAPedJVgi2wCJ9LIrZnQWw0wwXehXpaiUgsjeo0/edit#slide=id.gf82d99e286_0_7"......").
